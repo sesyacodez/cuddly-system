@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/cat-form.jpg">
+    <title>Form</title>
+</head>
+<body>
+    <header>
+        <h1>Form about cats</h1>
+        <nav>
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <img src="img/cat-form.jpg" alt="Cat">
+        </div>
+        <div>
+            <form action="https://formspree.io/xvowjgoj" method="POST">
+                <label>The best cat name:
+                    <input type="text" name="cat name" placeholder="Cat name" required>
+                </label>
+                <br>
+                <label>Your email:
+                    <input type="email" name="email" placeholder="Your email" required>
+                </label>
+                <br>
+                <label>Password:
+                    <input type="password" placeholder="Your password" required>
+                </label>
+                <br>
+                <label>Your mobile phone number:
+                    <input type="tel" name="phone number" placeholder="Your mobile phone number" required>
+                </label>
+                <br>
+                <label>Pet:
+                    <input type="radio" name="pet" value="cat">Cat
+                </label>
+                <label>
+                    <input type="radio" name="pet" value="dog">Dog
+                </label>
+                <br>
+                <label>Pick your favourite color
+                    <input type="color" name="color">
+                </label>
+                <br>
+                <label>Your birth date:
+                    <input type="date" name="birthday">
+                </label>
+                <br>
+                <label>Your pet picture:
+                    <input type="file" name="pet picture">
+                </label>
+                <br>
+                <input type="submit">
+                <input type="reset">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
